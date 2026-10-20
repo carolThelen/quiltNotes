@@ -464,6 +464,7 @@ ACCUQUILT[101].push(
     qubeSize: 10,
     qubeShape: 2,
     boardSize: 66,
-    cutter: 123
+    cutter: 123,
+    calc: 1
   }
 );
