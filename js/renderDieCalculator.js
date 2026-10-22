@@ -1,38 +1,56 @@
-// ======================================================
-// UNIVERSAL DIE CALCULATOR RENDERER
-// Works for Square (101) and Rectangle (102) dies
-// ======================================================
-
 function renderDieCalculator(dieNumber, numPatch) {
 
-    // Try Square lookup first, then Rectangle
-    const die =
-        (typeof DIES_101_SQUARES !== "undefined" && DIES_101_SQUARES[dieNumber]) ||
-        (typeof DIES_102_RECTANGLES !== "undefined" && DIES_102_RECTANGLES[dieNumber]) ||
-        null;
+    let die = null;
 
+    // ================================
+    // SEARCH SQUARE DIES (shape 101)
+    // ================================
+    if (typeof ACCUQUILT !== "undefined" &&
+        Array.isArray(ACCUQUILT[101])) {
+
+        die = ACCUQUILT[101].find(d => d.number == dieNumber);
+    }
+
+    // ================================
+    // SEARCH RECTANGLE DIES (shape 102)
+    // ================================
+    if (!die &&
+        typeof ACCUQUILT !== "undefined" &&
+        Array.isArray(ACCUQUILT[102])) {
+
+        die = ACCUQUILT[102].find(d => d.number == dieNumber);
+    }
+
+    // ================================
+    // IF STILL NOT FOUND
+    // ================================
     if (!die) {
         return `<p>Die #${dieNumber} not found in lookup tables.</p>`;
     }
 
+    // ================================
+    // EXTRACT DIE FIELDS
+    // ================================
     const {
+        number,
         name,
+        size,
         widthGrain,
         lengthGrain,
-        patches,
-        shape,
-        size,
         image,
         imageAlt,
         affiliate,
-        boardsize,
+        patches,
+        dieType,
+        qubeSize,
+        qubeShape,
+        boardSize,
         cutter,
         video,
-        assembly,
-        qubeShape
+        assembly
     } = die;
 
-    // Lookup tables (same as PHP)
+    // Lookup tables
     const shapeLookup = {
         101: "Square",
         102: "Rectangle"
@@ -56,17 +74,19 @@ function renderDieCalculator(dieNumber, numPatch) {
         3: "GO! Big"
     };
 
-    const type = shapeLookup[shape] || "Patch";
-    const mat = matLookup[boardsize] || "";
+    const type = shapeLookup[die.shape] || "Patch";
+    const mat = matLookup[boardSize] || "";
     const machine = cutterLookup[cutter] || "";
 
     // Patch math
     const numPatchCuts = numPatch / patches;
 
-    // Your existing fabCalc() function
+    // Fabric calculator
     const results = fabCalc(numPatchCuts, widthGrain, lengthGrain);
 
-    // Build HTML
+    // ================================
+    // BUILD HTML
+    // ================================
     let html = `
         <h3 class="w3-center">QuiltNotes™ Calculators<br>${name}<br>AccuQuilt Die #${dieNumber}</h3>
 
@@ -106,4 +126,5 @@ function renderDieCalculator(dieNumber, numPatch) {
 
     return html;
 }
+
 
