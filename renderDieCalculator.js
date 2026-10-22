@@ -1,4 +1,3 @@
-<script>
 // ======================================================
 // UNIVERSAL DIE CALCULATOR RENDERER
 // Works for Square (101) and Rectangle (102) dies
@@ -107,4 +106,3 @@ function renderDieCalculator(dieNumber, numPatch) {
 
     return html;
 }
-</script>
