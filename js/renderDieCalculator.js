@@ -2,31 +2,34 @@ function renderDieCalculator(dieNumber, numPatch) {
 
     let die = null;
 
-    // ================================
-    // SEARCH SQUARE DIES (shape 101)
-    // ================================
-    if (typeof ACCUQUILT !== "undefined" &&
-        Array.isArray(ACCUQUILT[101])) {
+// ================================
+// SEARCH SQUARE DIES (shape 101)
+// ================================
+if (typeof ACCUQUILT !== "undefined" &&
+    Array.isArray(ACCUQUILT[101])) {
 
-        die = ACCUQUILT[101].find(d => d.number == dieNumber);
-    }
+    die = ACCUQUILT[101].find(d => d.number == dieNumber);
+    if (die) die.shape = 101;
+}
 
-    // ================================
-    // SEARCH RECTANGLE DIES (shape 102)
-    // ================================
-    if (!die &&
-        typeof ACCUQUILT !== "undefined" &&
-        Array.isArray(ACCUQUILT[102])) {
+// ================================
+// SEARCH RECTANGLE DIES (shape 102)
+// ================================
+if (!die &&
+    typeof ACCUQUILT !== "undefined" &&
+    Array.isArray(ACCUQUILT[102])) {
 
-        die = ACCUQUILT[102].find(d => d.number == dieNumber);
-    }
+    die = ACCUQUILT[102].find(d => d.number == dieNumber);
+    if (die) die.shape = 102;
+}
 
-    // ================================
-    // IF STILL NOT FOUND
-    // ================================
-    if (!die) {
-        return `<p>Die #${dieNumber} not found in lookup tables.</p>`;
-    }
+// ================================
+// IF STILL NOT FOUND
+// ================================
+if (!die) {
+    return `<p>Die #${dieNumber} not found in lookup tables.</p>`;
+}
+
 
     // ================================
     // EXTRACT DIE FIELDS
