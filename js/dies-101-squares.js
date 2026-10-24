@@ -2,7 +2,7 @@ ACCUQUILT[101].push(
   {
     number: 55000,
     name: "Square 6\" Finished (12\" Qube Shape 1)",
-    url: https://quilt-notes.blogspot.com/p/accuquilt-square-6-finished-die-55000.html,
+    url: https://quilt-notes.blogspot.com/p/accuquilt-square-6-finished-12-qube.html,
     size: 6,
     widthGrain: 7,
     lengthGrain: 7,
@@ -20,7 +20,7 @@ ACCUQUILT[101].push(
   {
     number: 55006,
     name: "Square 3\" Finished",
-    url: null,
+    url: https://quilt-notes.blogspot.com/p/accuquilt-square-3-finished-die-55006.html,
     size: 3,
     widthGrain: 4,
     lengthGrain: 7.5,
