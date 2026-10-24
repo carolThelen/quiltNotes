@@ -2,7 +2,7 @@ ACCUQUILT[101].push(
   {
     number: 55000,
     name: "Square 6\" Finished (12\" Qube Shape 1)",
-    url: https://quilt-notes.blogspot.com/p/accuquilt-square-6-finished-12-qube.html,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-6-finished-12-qube.html",
     size: 6,
     widthGrain: 7,
     lengthGrain: 7,
@@ -20,7 +20,7 @@ ACCUQUILT[101].push(
   {
     number: 55006,
     name: "Square 3\" Finished",
-    url: https://quilt-notes.blogspot.com/p/accuquilt-square-3-finished-die-55006.html,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-3-finished-die-55006.html",
     size: 3,
     widthGrain: 4,
     lengthGrain: 7.5,
@@ -38,7 +38,7 @@ ACCUQUILT[101].push(
   {
     number: 55010,
     name: "Square 4-1/2\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-4-12-finished-die-55010.html",
     size: 4.5,
     widthGrain: 5.5,
     lengthGrain: 10.5,
@@ -56,7 +56,7 @@ ACCUQUILT[101].push(
   {
     number: 55022,
     name: "Square 1-1/2\" Finished Multiples",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-12-finished.html",
     size: 1.5,
     widthGrain: 4.5,
     lengthGrain: 6.5,
@@ -74,7 +74,7 @@ ACCUQUILT[101].push(
   {
     number: 55058,
     name: "Square 8\" Finished (16\" Qube Shape 1)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-8-finished-16-qube.html",
     size: 8,
     widthGrain: 9.5,
     lengthGrain: 9.5,
@@ -92,7 +92,7 @@ ACCUQUILT[101].push(
   {
     number: 55059,
     name: "Square 2\" Finished Multiples",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-finished-multiples.html",
     size: 2,
     widthGrain: 8,
     lengthGrain: 8,
@@ -110,7 +110,7 @@ ACCUQUILT[101].push(
   {
     number: 55060,
     name: "Square 4\" Finished Multiples",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-4-finished-multiples.html",
     size: 4,
     widthGrain: 9.5,
     lengthGrain: 9.5,
@@ -128,7 +128,7 @@ ACCUQUILT[101].push(
   {
     number: 55232,
     name: "Square 1\" Finished (4\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-finished-4-qube.html",
     size: 1,
     widthGrain: 3.5,
     lengthGrain: 3.5,
@@ -146,7 +146,7 @@ ACCUQUILT[101].push(
   {
     number: 55256,
     name: "Square 2-1/2\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-12-finished-die-55256.html",
     size: 2.5,
     widthGrain: 3.5,
     lengthGrain: 9.5,
@@ -164,7 +164,7 @@ ACCUQUILT[101].push(
   {
     number: 55451,
     name: "Big Square 9-1/2\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-big-square-9-12-finished-die.html",
     size: 9.5,
     widthGrain: 10.5,
     lengthGrain: 10.5,
@@ -182,7 +182,7 @@ ACCUQUILT[101].push(
   {
     number: 55470,
     name: "Square 1\" Finished Multiples",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-finished-multiples.html",
     size: 1,
     widthGrain: 5,
     lengthGrain: 5,
@@ -200,7 +200,7 @@ ACCUQUILT[101].push(
   {
     number: 55545,
     name: "Square 2\" Finished (4\" Qube Shape 1)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-finished-4-qube.html",
     size: 2,
     widthGrain: 4.5,
     lengthGrain: 4.5,
@@ -218,7 +218,7 @@ ACCUQUILT[101].push(
   {
     number: 55568,
     name: "Square 2-1/2\" Finished (5\" Qube Shape 1)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-12-finished-5-qube.html",
     size: 2.5,
     widthGrain: 3.5,
     lengthGrain: 3.5,
@@ -236,7 +236,7 @@ ACCUQUILT[101].push(
   {
     number: 55569,
     name: "Square 1-1/4\" Finished (5\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-14-finished-5-qube.html",
     size: 1.25,
     widthGrain: 4,
     lengthGrain: 4,
@@ -254,7 +254,7 @@ ACCUQUILT[101].push(
   {
     number: 55590,
     name: "Square 7\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-14-finished-5-qube.html",
     size: 7,
     widthGrain: 8,
     lengthGrain: 8,
@@ -272,7 +272,7 @@ ACCUQUILT[101].push(
   {
     number: 55591,
     name: "Big Square 9\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-big-square-9-finished-die.html",
     size: 9,
     widthGrain: 10,
     lengthGrain: 10,
@@ -290,7 +290,7 @@ ACCUQUILT[101].push(
   {
     number: 55592,
     name: "Big Square 10\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-big-square-10-finished-die.html",
     size: 10,
     widthGrain: 11,
     lengthGrain: 11,
@@ -308,7 +308,7 @@ ACCUQUILT[101].push(
   {
     number: 55681,
     name: "Square 3/4\" Finished",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-34-finished-die-55681.html",
     size: 0.75,
     widthGrain: 5,
     lengthGrain: 5,
@@ -326,7 +326,7 @@ ACCUQUILT[101].push(
   {
     number: 55701,
     name: "Square 3\" Finished (6\" Qube Shape 1) & (12\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-3-finished-6-qube.html",
     size: 3,
     widthGrain: 4,
     lengthGrain: 4,
@@ -344,7 +344,7 @@ ACCUQUILT[101].push(
   {
     number: 55702,
     name: "Square 1-1/2\" Finished (6\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-1-12-finished-6-qube.html",
     size: 1.5,
     widthGrain: 4.5,
     lengthGrain: 4.5,
@@ -362,7 +362,7 @@ ACCUQUILT[101].push(
   {
     number: 55708,
     name: "Square 4\" Finished (8\" Qube Shape 1) & (16\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-4-finished-8-qube.html",
     size: 4,
     widthGrain: 5,
     lengthGrain: 5,
@@ -380,7 +380,7 @@ ACCUQUILT[101].push(
   {
     number: 55709,
     name: "Square 2\" Finished (8\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-finished-8-qube.html",
     size: 2,
     widthGrain: 5.5,
     lengthGrain: 5.5,
@@ -398,7 +398,7 @@ ACCUQUILT[101].push(
   {
     number: 55716,
     name: "Square 4-1/2\" Finished (9\" Qube Shape 1)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-4-12-finished-9-qube.html",
     size: 4.5,
     widthGrain: 5.5,
     lengthGrain: 5.5,
@@ -416,7 +416,7 @@ ACCUQUILT[101].push(
   {
     number: 55717,
     name: "Square 2-1/4\" Finished (9\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-14-finished-9-qube.html",
     size: 2.25,
     widthGrain: 3.25,
     lengthGrain: 3.25,
@@ -434,7 +434,7 @@ ACCUQUILT[101].push(
   {
     number: 55803,
     name: "Square 5\" Finished (10\" Qube Shape 1)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-5-finished-10-qube.html",
     size: 5,
     widthGrain: 6,
     lengthGrain: 6,
@@ -452,7 +452,7 @@ ACCUQUILT[101].push(
   {
     number: 55804,
     name: "Square 2-1/2\" Finished (10\" Qube Shape 2)",
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-square-2-12-finished-10-qube.html",
     size: 2.5,
     widthGrain: 3.5,
     lengthGrain: 3.5,
