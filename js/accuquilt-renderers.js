@@ -66,6 +66,8 @@ function renderDieGallery(options) {
 
     var desc = document.createElement("div");
     desc.className = "desc";
+    desc.textContent = die.galleryName || die.name;
+    desc.style.whiteSpace = "pre-line";
 
     if (die.galleryName) {
       desc.innerHTML = die.galleryName;
