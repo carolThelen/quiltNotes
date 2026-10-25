@@ -39,7 +39,7 @@ function renderDieGallery(options) {
   sortedDies.forEach(function(die) {
     var gallery = document.createElement("div");
     gallery.className = "w3-col s6 m4 l3 w3-center";
-    gallery.style.minHeight = "220px";
+    gallery.style.minHeight = "190px";
 
     var imageWrapper = document.createElement("div");
     imageWrapper.className = "w3-center";
