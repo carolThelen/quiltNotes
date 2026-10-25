@@ -30,7 +30,7 @@ function renderDieGallery(options) {
   }
 
   var galleryWrapper = document.createElement("div");
-  galleryWrapper.className = "die-gallery-wrapper";
+  galleryWrapper.className = "w3-row-padding";
 
   var sortedDies = ACCUQUILT[category].slice().sort(function(a, b) {
     return a.name.localeCompare(b.name);
@@ -38,7 +38,7 @@ function renderDieGallery(options) {
 
   sortedDies.forEach(function(die) {
     var gallery = document.createElement("div");
-    gallery.className = "gallery";
+    gallery.className = "w3-col s6 m4 l3 w3-center";
 
     var imageWrapper = document.createElement("div");
     imageWrapper.className = "w3-center";
@@ -65,7 +65,7 @@ function renderDieGallery(options) {
     }
 
     var desc = document.createElement("div");
-    desc.className = "desc";
+    desc.className = "w3-center";
     desc.textContent = die.name;
 
     gallery.appendChild(imageWrapper);
