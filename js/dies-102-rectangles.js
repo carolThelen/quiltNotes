@@ -28,6 +28,7 @@ ACCUQUILT[102].push({
 // Rectangle 1-1/2" x 3" Finished (6" Qube Shape 8)
 ACCUQUILT[102].push({
     number: 55158,
+    galleryName: 'Rectangle 1-1/2" x 3" Finished<br>(6" Qube Shape 8)',
     name: 'Rectangle 1-1/2" x 3" Finished (6" Qube Shape 8)',
     url: null,
     size: 1.5,
@@ -50,6 +51,7 @@ ACCUQUILT[102].push({
 // Rectangle 2" x 4" Finished
 ACCUQUILT[102].push({
     number: 55159,
+    galleryName: 'Rectangle 2" x 4" Finished<br>(8" Qube Shape 8)',
     name: 'Rectangle 2" x 4" Finished',
     url: null,
     size: 2,
@@ -73,6 +75,7 @@ ACCUQUILT[102].push({
 ACCUQUILT[102].push({
     number: 55160,
     name: 'Rectangle 4" x 8" Finished (16" Qube Shape 8)',
+    galleryName: 'Rectangle 4" x 8" Finished<br>(16" Qube Shape 8)',
     url: null,
     size: 4,
     width: 4,
@@ -94,6 +97,7 @@ ACCUQUILT[102].push({
 // Rectangle 1" x 2" Finished (4" Qube Shape 8)
 ACCUQUILT[102].push({
     number: 55236,
+    galleryName: 'Rectangle 1" x 2" Finished<br>(4" Qube Shape 8)',
     name: 'Rectangle 1" x 2" Finished (4" Qube Shape 8)',
     url: null,
     size: 1,
@@ -115,6 +119,7 @@ ACCUQUILT[102].push({
 
 // Rectangle 1-1/4" x 2-1/2" Finished (5" Qube Shape 8)
 ACCUQUILT[102].push({
+    galleryName: 'Rectangle 1-1/4" x 2-1/2" Finished<br>(5" Qube Shape 8)',
     number: 55575,
     name: 'Rectangle 1-1/4" x 2-1/2" Finished (5" Qube Shape 8)',
     url: null,
@@ -138,6 +143,7 @@ ACCUQUILT[102].push({
 // Rectangle 2" x 4" Finished (8" Qube Shape 8)
 ACCUQUILT[102].push({
     number: 55715,
+    galleryName: 'Rectangle 2" x 4" Finished<br>(8" Qube Shape 8)',
     name: 'Rectangle 2" x 4" Finished (8" Qube Shape 8)',
     url: null,
     size: 2,
@@ -161,6 +167,7 @@ ACCUQUILT[102].push({
 ACCUQUILT[102].push({
     number: 55722,
     name: 'Rectangle 2-1/4" x 4-1/2" Finished (9" Qube Shape 8)',
+    galleryName: 'Rectangle 2-1/4" x 4-1/2" Finished<br>(9" Qube Shape 8)',
     url: null,
     size: 2.25,
     width: 2.25,
@@ -183,6 +190,7 @@ ACCUQUILT[102].push({
 ACCUQUILT[102].push({
     number: 55724,
     name: 'Rectangle 3" x 6" Finished (12" Qube Shape 8)',
+    galleryName: 'Rectangle 3" x 6" Finished<br>(12" Qube Shape 8)',
     url: null,
     size: 3,
     width: 3,
@@ -205,6 +213,7 @@ ACCUQUILT[102].push({
 ACCUQUILT[102].push({
     number: 55810,
     name: 'Rectangle 2-1/2" x 5" Finished (10" Qube Shape 8)',
+    galleryName: 'Rectangle 2-1/2" x 5" Finished<br>(10" Qube Shape 8)',
     url: null,
     size: 2.5,
     width: 2.5,
