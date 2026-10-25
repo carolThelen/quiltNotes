@@ -66,7 +66,12 @@ function renderDieGallery(options) {
 
     var desc = document.createElement("div");
     desc.className = "desc";
-    desc.textContent = die.name;
+
+    if (die.galleryName) {
+      desc.innerHTML = die.galleryName;
+    } else {
+      desc.textContent = die.name;
+    }
 
     gallery.appendChild(imageWrapper);
     gallery.appendChild(desc);
