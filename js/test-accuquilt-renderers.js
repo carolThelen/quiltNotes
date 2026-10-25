@@ -2,7 +2,7 @@ function renderDieGallery(options) {
   var category = options.category;
   var containerId = options.containerId;
   var heading = options.heading || "";
-  var imageWidth = options.imageWidth || 100;
+  var imageWidth = options.imageWidth || 120;
 
   var container = document.getElementById(containerId);
 
@@ -20,7 +20,7 @@ function renderDieGallery(options) {
     return;
   }
 
-  // Prevent duplicate output if the function is called twice.
+  // Prevent duplicate gallery output.
   container.innerHTML = "";
 
   if (heading) {
@@ -41,7 +41,7 @@ function renderDieGallery(options) {
     gallery.className = "gallery";
 
     var imageWrapper = document.createElement("div");
-    imageWrapper.className = "w3-center";
+    imageWrapper.className = "gallery-image";
 
     var image = document.createElement("img");
 
@@ -53,6 +53,7 @@ function renderDieGallery(options) {
     image.width = imageWidth;
     image.loading = "lazy";
 
+    // Link the image to the URL in the lookup record.
     if (die.url) {
       var imageLink = document.createElement("a");
       imageLink.href = die.url;
@@ -66,14 +67,9 @@ function renderDieGallery(options) {
 
     var desc = document.createElement("div");
     desc.className = "desc";
-    desc.textContent = die.galleryName || die.name;
-    desc.style.whiteSpace = "pre-line";
 
-    if (die.galleryName) {
-      desc.innerHTML = die.galleryName;
-    } else {
-      desc.textContent = die.name;
-    }
+    // Plain text only. Newline characters display as line breaks.
+    desc.textContent = die.galleryName || die.name;
 
     gallery.appendChild(imageWrapper);
     gallery.appendChild(desc);
