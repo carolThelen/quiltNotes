@@ -7,7 +7,7 @@ ACCUQUILT[102] = [];
 ACCUQUILT[102].push({
     number: 55005,
     name: 'Rectangle 3" x 6" Finished',
-    url: null,
+    url: https://quilt-notes.blogspot.com/p/accuquilt-rectangle-3-x-6-finished-die.html,
     size: 3,
     width: 3,
     length: 6,
