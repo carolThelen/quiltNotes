@@ -20,7 +20,7 @@ ACCUQUILT[102].push({
     dieType: 'Geometric',
     qubeSize: null,
     qubeShape: null,
-    boardsize: 510,
+    boardSize: 510,
     cutter: 123,
     calc: 1
 });
@@ -30,7 +30,7 @@ ACCUQUILT[102].push({
     number: 55158,
     galleryName: 'Rectangle 1-1/2" x 3" Finished\n(6" Qube Shape 8)',
     name: 'Rectangle 1-1/2" x 3" Finished (6" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-2-x-4-finished-die.html",
     size: 1.5,
     width: 1.5,
     length: 3,
@@ -43,7 +43,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 6,
     qubeShape: 8,
-    boardsize: 66,
+    boardSize: 66,
     cutter: 123,
     calc: 1
 });
@@ -53,7 +53,7 @@ ACCUQUILT[102].push({
     number: 55159,
     galleryName: 'Rectangle 2" x 4" Finished\n(8" Qube Shape 8)',
     name: 'Rectangle 2" x 4" Finished',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-2-x-4-finished-die.html",
     size: 2,
     width: 2,
     length: 4,
@@ -66,7 +66,7 @@ ACCUQUILT[102].push({
     dieType: 'Geometric',
     qubeSize: null,
     qubeShape: null,
-    boardsize: 612,
+    boardSize: 612,
     cutter: 123,
     calc: 1
 });
@@ -76,7 +76,7 @@ ACCUQUILT[102].push({
     number: 55160,
     name: 'Rectangle 4" x 8" Finished (16" Qube Shape 8)',
     galleryName: 'Rectangle 4" x 8" Finished\n(16" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-4-x-8-finished-16.html",
     size: 4,
     width: 4,
     length: 8,
@@ -89,7 +89,7 @@ ACCUQUILT[102].push({
     dieType: 'Geometric',
     qubeSize: 16,
     qubeShape: 8,
-    boardsize: 1010,
+    boardSize: 1010,
     cutter: 23,
     calc: 1
 });
@@ -99,7 +99,7 @@ ACCUQUILT[102].push({
     number: 55236,
     galleryName: 'Rectangle 1" x 2" Finished\n(4" Qube Shape 8)',
     name: 'Rectangle 1" x 2" Finished (4" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-1-x-2-finished-4.html",
     size: 1,
     width: 1,
     length: 2,
@@ -112,7 +112,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 4,
     qubeShape: 8,
-    boardsize: 66,
+    boardSize: 66,
     cutter: 123,
     calc: 1
 });
@@ -122,7 +122,7 @@ ACCUQUILT[102].push({
     galleryName: 'Rectangle 1-1/4" x 2-1/2" Finished\n(5" Qube Shape 8)',
     number: 55575,
     name: 'Rectangle 1-1/4" x 2-1/2" Finished (5" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-1-14-x-2-12.html",
     size: 1.25,
     width: 1.25,
     length: 2.5,
@@ -135,7 +135,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 5,
     qubeShape: 8,
-    boardsize: 66,
+    boardSize: 66,
     cutter: 123,
     calc: 1
 });
@@ -145,7 +145,7 @@ ACCUQUILT[102].push({
     number: 55715,
     galleryName: 'Rectangle 2" x 4" Finished\n(8" Qube Shape 8)',
     name: 'Rectangle 2" x 4" Finished (8" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-2-x-4-finished-8.html",
     size: 2,
     width: 2,
     length: 4,
@@ -158,7 +158,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 8,
     qubeShape: 8,
-    boardsize: 66,
+    boardSize: 66,
     cutter: 123,
     calc: 1
 });
@@ -168,7 +168,7 @@ ACCUQUILT[102].push({
     number: 55722,
     name: 'Rectangle 2-1/4" x 4-1/2" Finished (9" Qube Shape 8)',
     galleryName: 'Rectangle 2-1/4" x 4-1/2" Finished\n(9" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-2-14-x-4-12.html",
     size: 2.25,
     width: 2.25,
     length: 4.5,
@@ -181,7 +181,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 9,
     qubeShape: 8,
-    boardsize: 66,
+    boardSize: 66,
     cutter: 123,
     calc: 1
 });
@@ -191,7 +191,7 @@ ACCUQUILT[102].push({
     number: 55724,
     name: 'Rectangle 3" x 6" Finished (12" Qube Shape 8)',
     galleryName: 'Rectangle 3" x 6" Finished\n(12" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-3-x-6-finished-12.html",
     size: 3,
     width: 3,
     length: 6,
@@ -204,7 +204,7 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 12,
     qubeShape: 8,
-    boardsize: 1010,
+    boardSize: 1010,
     cutter: 23,
     calc: 1
 });
@@ -214,7 +214,7 @@ ACCUQUILT[102].push({
     number: 55810,
     name: 'Rectangle 2-1/2" x 5" Finished (10" Qube Shape 8)',
     galleryName: 'Rectangle 2-1/2" x 5" Finished\n(10" Qube Shape 8)',
-    url: null,
+    url: "https://quilt-notes.blogspot.com/p/accuquilt-rectangle-2-12-x-5-finished.html",
     size: 2.5,
     width: 2.5,
     length: 5,
@@ -227,8 +227,9 @@ ACCUQUILT[102].push({
     dieType: 'Qube',
     qubeSize: 10,
     qubeShape: 8,
-    boardsize: 1010,
+    boardSize: 1010,
     cutter: 23,
     calc: 1
 });
+
 
