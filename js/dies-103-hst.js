@@ -273,7 +273,7 @@ ACCUQUILT[103].push(
     size: 3.0,
     widthGrain: 4.0,
     lengthGrain: 4.75,
-    image: "55703-6inch-qube-shape-3.jpg",
+    image: "55703-12inch-qube-shape-5.jpg",
     imageAlt: "Half Square Triangle 3\" Finished - AccuQuilt Die #55703",
     affiliate: "https://shrsl.com/4hlr2",
     patches: 2,
