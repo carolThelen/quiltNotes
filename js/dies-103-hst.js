@@ -457,7 +457,7 @@ ACCUQUILT[103].push(
   },
   {
     number: 55814,
-    name: "AccuQuilt Half Square Triangle:  1-1/4\" Finished (10\" Qube Shape 12.1)\n Die #55814",
+    name: "AccuQuilt Half Square Triangle:  1-1/4\" Finished (10\" Qube Shape 12.1) Die #55814",
     galleryName: "Half Square Triangle:  1-1/4\" Finished\n(10\" Q\nube Shape 12.1)\n Die #55814",
     url: "https://quilt-notes.blogspot.com/p/55814.html",
     size: 1.25,
