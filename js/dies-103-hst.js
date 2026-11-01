@@ -269,7 +269,7 @@ ACCUQUILT[103].push(
     number: 55703,
     name: "AccuQuilt Half Square Triangle:  3\" Finished (6\" Qube Shape 3) & (12\" Qube Shape 5) Die #55703",
     galleryName: "Half Square Triangle:  3\" Finished\n(6\" Qube Shape 3) & (12\" Qube Shape 5) Die #55703",
-    url: "url?id=0p/55703.html",
+    url: "https://quilt-notes.blogspot.com/p/55703.html",
     size: 3.0,
     widthGrain: 4.0,
     lengthGrain: 4.75,
