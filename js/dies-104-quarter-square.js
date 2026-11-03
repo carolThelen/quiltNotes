@@ -17,7 +17,7 @@ ACCUQUILT[104].push(
     boardSize: 612,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55047,
     name: "AccuQuilt Quarter Square Triangle:  4\" Finished Die #55047",
@@ -36,7 +36,7 @@ ACCUQUILT[104].push(
     boardSize: 612,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55233,
     name: "AccuQuilt Quarter Square Triangle:  2\" Finished (4\" Qube Shape 4) Die #55233",
@@ -55,7 +55,7 @@ ACCUQUILT[104].push(
     boardSize: 66,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55571,
     name: "AccuQuilt Quarter Square Triangle:  2-1/2\" Finished (5\" Qube Shape 4) Die #55571",
@@ -74,7 +74,7 @@ ACCUQUILT[104].push(
     boardSize: 66,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55652,
     name: "AccuQuilt Quarter Square Triangle:  8\" Finished (16\" Qube Shape 4) Die #55652",
@@ -93,7 +93,7 @@ ACCUQUILT[104].push(
     boardSize: 1010,
     cutter: 23,
     calc: 4
-  }
+  },
   {
     number: 55704,
     name: "AccuQuilt Quarter Square Triangle:  3\" Finished (6\" Qube Shape 4) Die #55704",
@@ -112,7 +112,7 @@ ACCUQUILT[104].push(
     boardSize: 66,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55711,
     name: "AccuQuilt Quarter Square Triangle:  4\" Finished (8\" Qube Shape 4) Die #55711",
@@ -131,7 +131,7 @@ ACCUQUILT[104].push(
     boardSize: 66,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55718,
     name: "AccuQuilt Quarter Square Triangle:  4-1/2\" Finished (9\" Qube Shape 4) Die #55718",
@@ -150,7 +150,7 @@ ACCUQUILT[104].push(
     boardSize: 66,
     cutter: 123,
     calc: 4
-  }
+  },
   {
     number: 55726,
     name: "AccuQuilt Quarter Square Triangle:  6\" Finished (12\" Qube Shape 4) Die #55726",
@@ -169,7 +169,7 @@ ACCUQUILT[104].push(
     boardSize: 1010,
     cutter: 23,
     calc: 4
-  }
+  },
   {
     number: 55806,
     name: "AccuQuilt Quarter Square Triangle:  5\" Finished (10\" Qube Shape 4) Die #55806",
