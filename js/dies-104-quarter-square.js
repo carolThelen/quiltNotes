@@ -1,4 +1,4 @@
-ACCUQUILT[104].push(
+ACCUQUILT[104].push([
   {
     number: 55002,
     name: "AccuQuilt Quarter Square Triangle:  4\" Finished (Discontinued) Die #55002",
@@ -189,4 +189,4 @@ ACCUQUILT[104].push(
     cutter: 23,
     calc: 4
   }
-);
+]);
