@@ -65,7 +65,6 @@ ACCUQUILT[104].push({
   });
 
 ACCUQUILT[104].push({
-  {
     number: 55571,
     name: "AccuQuilt Quarter Square Triangle:  2-1/2\" Finished (5\" Qube Shape 4) Die #55571",
     galleryName: "Quarter Square Triangle:  2-1/2\" Finished\n(5\" Qube Shape 4) Die #55571",
