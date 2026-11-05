@@ -1,3 +1,4 @@
+ACCUQUILT[106] = ACCUQUILT[106] || [];
 ACCUQUILT[106].push(
   {
     number: 55241,
