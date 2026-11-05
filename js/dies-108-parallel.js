@@ -1,7 +1,7 @@
 ACCUQUILT[108].push(
   {
     number: 55235,
-    name: "Accuquilt Parallelogram: 1\" x 1-3/8\" Finished (4\" Qube Shape 7)",
+    name: "AccuQuilt Parallelogram: 1\" x 1-3/8\" Finished (4\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55235.html",
     size: 1,
     widthGrain: 2.25,
