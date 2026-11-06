@@ -2,6 +2,7 @@ ACCUQUILT[108].push(
   {
     number: 55235,
     name: "AccuQuilt Parallelogram: 1\" x 1-3/8\" Finished (4\" Qube Shape 7)",
+    galleryName: "Parallelogram: 1\" x 1-3/8\" Finished\n(4\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55235.html",
     size: 1,
     widthGrain: 2.25,
@@ -20,6 +21,7 @@ ACCUQUILT[108].push(
   {
     number: 55574,
     name: "AccuQuilt Parallelogram: 1-1/4\" x 2-1/2\" Finished (5\" Qube Shape 7)",
+    galleryName: "Parallelogram: 1-1/4\" x 2-1/2\" Finished\n(5\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55574.html",
     size: 1.25,
     widthGrain: 1.5,
@@ -38,6 +40,7 @@ ACCUQUILT[108].push(
   {
     number: 55654,
     name: "AccuQuilt Parallelogram: 4\" x 8\" Finished (16\" Qube Shape 7)",
+    galleryName: "Parallelogram: 4\" x 8\" Finished\n(16\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55654.html",
     size: 4,
     widthGrain: 4.5,
@@ -56,6 +59,7 @@ ACCUQUILT[108].push(
   {
     number: 55707,
     name: "AccuQuilt Parallelogram: 1-1/2\" x 3\" Finished (6\" Qube Shape 7)",
+    galleryName: "Parallelogram: 1-1/2\" x 3\" Finished\n(6\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55707.html",
     size: 1.5,
     widthGrain: 2.25,
@@ -74,6 +78,7 @@ ACCUQUILT[108].push(
   {
     number: 55714,
     name: "AccuQuilt Parallelogram: 2\" x 4\" Finished (8\" Qube Shape 7)",
+    galleryName: "Parallelogram: 2\" x 4\" Finished\n(8\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55714.html",
     size: 2,
     widthGrain: 3.25,
@@ -92,6 +97,7 @@ ACCUQUILT[108].push(
   {
     number: 55721,
     name: "AccuQuilt Parallelogram: 2-1/4\" x 4-1/2\" Finished (9\" Qube Shape 7)",
+    galleryName: "Parallelogram: 2-1/4\" x 4-1/2\" Finished\n(9\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55721.html",
     size: 2.25,
     widthGrain: 4.5,
@@ -110,6 +116,7 @@ ACCUQUILT[108].push(
   {
     number: 55723,
     name: "AccuQuilt Parallelogram: 3\" x 6\" Finished (12\" Qube Shape 7)",
+    galleryName: "Parallelogram: 3\" x 6\" Finished\n(12\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55723.html",
     size: 3,
     widthGrain: 5.25,
@@ -128,6 +135,7 @@ ACCUQUILT[108].push(
   {
     number: 55809,
     name: "AccuQuilt Parallelogram: 2-1/2\" x 5\" Finished (10\" Qube Shape 7)",
+    galleryName: "Parallelogram: 2-1/2\" x 5\" Finished\n(10\" Qube Shape 7)",
     url: "https://quilt-notes.blogspot.com/p/55809.html",
     size: 2.5,
     widthGrain: 3.5,
