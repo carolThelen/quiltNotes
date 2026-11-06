@@ -24,7 +24,7 @@ ACCUQUILT[106].push(
     size: 2,
     widthGrain: 3,
     lengthGrain: 3,
-    image: "55242-4inch-sube-shape-14.jpg",
+    image: "55242-4inch-qube-shape-14.jpg",
     imageAlt: "Triangle in Square Sides: 2\" Finished (4\" Qube Shape 14)",
     affiliate: "https://shrsl.com/4hs1o",
     patches: 1,
