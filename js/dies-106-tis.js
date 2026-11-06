@@ -2,6 +2,7 @@ ACCUQUILT[106].push(
   {
     number: 55241,
     name: "AccuQuilt Triangle in Square Center: 2\" Finished (4\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 2\"Finished\n(4\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55241.html",
     size: 2,
     widthGrain: 3,
@@ -20,6 +21,7 @@ ACCUQUILT[106].push(
   {
     number: 55242,
     name: "AccuQuilt Triangle in Square Sides: 2\" Finished (4\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 2\"Finished\n(4\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55242.html",
     size: 2,
     widthGrain: 3,
@@ -38,6 +40,7 @@ ACCUQUILT[106].push(
   {
     number: 55582,
     name: "AccuQuilt Triangle in Square Center: 2 1/2\" Finished (5\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 2 1/2\"Finished\n(5\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55582.html",
     size: 2.5,
     widthGrain: 4,
@@ -56,6 +59,7 @@ ACCUQUILT[106].push(
   {
     number: 55583,
     name: "AccuQuilt Triangle in Square Sides: 2-1/2\" Finished (5\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 2-1/2\"Finished\n(5\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55583.html",
     size: 2.5,
     widthGrain: 4,
@@ -74,6 +78,7 @@ ACCUQUILT[106].push(
   {
     number: 55661,
     name: "AccuQuilt Triangle in Square Center: 8\" Finished (16\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 8\"Finished\n(16\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55661.html",
     size: 8,
     widthGrain: 9,
@@ -92,6 +97,7 @@ ACCUQUILT[106].push(
   {
     number: 55662,
     name: "AccuQuilt Triangle in Square Sides: 8\" Finished (16\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 8\"Finished\n(16\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55662.html",
     size: 8,
     widthGrain: 4.75,
@@ -110,6 +116,7 @@ ACCUQUILT[106].push(
   {
     number: 55751,
     name: "AccuQuilt Triangle in Square Center: 3\" Finished (6\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 3\" Finished\n(6\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55751.html",
     size: 3,
     widthGrain: 4,
@@ -128,6 +135,7 @@ ACCUQUILT[106].push(
   {
     number: 55752,
     name: "AccuQuilt Triangle in Square Sides: 3\" Finished (6\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 3\" Finished\n(6\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55752.html",
     size: 3,
     widthGrain: 3.25,
@@ -146,6 +154,7 @@ ACCUQUILT[106].push(
   {
     number: 55753,
     name: "AccuQuilt Triangle in Square Center: 4\" Finished (8\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 4\" Finished\n(8\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55753.html",
     size: 4,
     widthGrain: 5,
@@ -164,6 +173,7 @@ ACCUQUILT[106].push(
   {
     number: 55754,
     name: "AccuQuilt Triangle in Square Sides: 4\" Finished (8\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 4\" Finished\n(8\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55754.html",
     size: 4,
     widthGrain: 5.25,
@@ -182,6 +192,7 @@ ACCUQUILT[106].push(
   {
     number: 55755,
     name: "AccuQuilt Triangle in Square Center: 4-1/2\" Finished (9\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 4-1/2\" Finished\n(9\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55755.html",
     size: 4.5,
     widthGrain: 6,
@@ -200,6 +211,7 @@ ACCUQUILT[106].push(
   {
     number: 55756,
     name: "AccuQuilt Triangle in Square Sides: 4-1/2\" Finished (9\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 4-1/2\" Finished\n(9\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55756.html",
     size: 4.5,
     widthGrain: 5.5,
@@ -218,6 +230,7 @@ ACCUQUILT[106].push(
   {
     number: 55757,
     name: "AccuQuilt Triangle in Square Center: 6” Finished (12\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 6” Finished\n(12\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55757.html",
     size: 6,
     widthGrain: 7,
@@ -236,6 +249,7 @@ ACCUQUILT[106].push(
   {
     number: 55817,
     name: "AccuQuilt Triangle in Square Sides:  6\" Finished (12\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides:  6\" Finished\n(12\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55817.html",
     size: 6,
     widthGrain: 7.25,
@@ -254,6 +268,7 @@ ACCUQUILT[106].push(
   {
     number: 55820,
     name: "AccuQuilt Triangle in Square Center: 5\" Finished (10\" Qube Shape 13)",
+    galleryName: "Triangle in Square Center: 5\" Finished\n(10\" Qube Shape 13)",
     url: "https://quilt-notes.blogspot.com/p/55820.html",
     size: 5,
     widthGrain: 6.5,
@@ -272,6 +287,7 @@ ACCUQUILT[106].push(
   {
     number: 55821,
     name: "AccuQuilt Triangle in Square Sides: 5\" Finished (10\" Qube Shape 14)",
+    galleryName: "Triangle in Square Sides: 5\" Finished\n(10\" Qube Shape 14)",
     url: "https://quilt-notes.blogspot.com/p/55821.html",
     size: 5,
     widthGrain: 6,
