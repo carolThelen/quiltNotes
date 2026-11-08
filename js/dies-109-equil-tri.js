@@ -3,7 +3,7 @@ ACCUQUILT[109].push(
     number: 55079,
     name: "AccuQuilt Equilateral Triangle: 3/4\" 1-1/4\", 2-1/4\" Finished Sides",
     galleryName: "AccuQuilt Equilateral Triangle: 3/4\" 1-1/4\", 2-1/4\" Finished Sides",
-    url: "https://quilt-notes.blogspot.com/p/55002.html",
+    url: "https://quilt-notes.blogspot.com/p/55079.html",
     size: 2.25,
     widthGrain: 4.875,
     lengthGrain: 3.25,
