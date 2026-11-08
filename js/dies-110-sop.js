@@ -116,7 +116,7 @@ ACCUQUILT[110].push(
   {
     number: 55725,
     name: "AccuQuilt Square on Point:   6\" Finished (12\" Qube Shape 6)\nDie #55725",
-    galleryName: "AccuQuilt Square on Point:   6\" Finished\n(12\" Qube Shape 6)\nDie #55725",
+    galleryName: "AccuQuilt Square on Point:   6\" Finished\n(12\" Qube Shape 6)",
     url: "https://quilt-notes.blogspot.com/p/55725.html",
     size: 6,
     widthGrain: 5,
