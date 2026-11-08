@@ -1,0 +1,40 @@
+ACCUQUILT[109].push(
+  {
+    number: 55079,
+    name: "AccuQuilt Equilateral Triangle: 3/4\" 1-1/4\", 2-1/4\" Finished Sides",
+    galleryName: "AccuQuilt Equilateral Triangle: 3/4\" 1-1/4\", 2-1/4\" Finished Sides",
+    url: "https://quilt-notes.blogspot.com/p/55002.html",
+    size: 2.25,
+    widthGrain: 4.875,
+    lengthGrain: 3.25,
+    image: "55079-equil-triangle-3-sizes.jpg",
+    imageAlt: "Equilateral Triangle Various Sizes - AccuQuilt Die #55079",
+    affiliate: "https://shrsl.com/4kw7s",
+    patches: 2,
+    dieType: "Geometric",
+    qubeSize: null,
+    qubeShape: null,
+    boardSize: 612,
+    cutter: 123,
+    calc: 0
+  },
+{
+   number: 55429,
+    name: "AccuQuilt Equilateral Triangle 4-1/4\" Finished Sides",
+    galleryName: "Equilateral Triangle 4-1/4\" Finished Sides",
+    url: "https://quilt-notes.blogspot.com/p/55429.html",
+    size: 4.25,
+    widthGrain: 5.25,
+    lengthGrain: 4.625,
+    image: "55429-equilateral-triangle-4quarter-fin.jpg",
+    imageAlt: "Equilateral Triangle 4-1/4\" Finished - AccuQuilt Die #55429",
+    affiliate: "https://shrsl.com/4kw7x",
+    patches: 1,
+    dieType: "Geometric",
+    qubeSize: null,
+    qubeShape: null,
+    boardSize: 66,
+    cutter: 123,
+    calc: 0  
+  }
+);
