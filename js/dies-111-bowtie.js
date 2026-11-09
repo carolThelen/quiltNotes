@@ -78,7 +78,7 @@ ACCUQUILT[111].push(
   },
   {
     number: 55764,
-    name: "AccuQuilt Bowtie: 4\" Finished:  (8\" Qube Shape 11.1)",
+    name: "AccuQuilt Bowtie: 4\" Finished (8\" Qube Shape 11.1)",
     galleryName: "Bowtie: 4\" Finished\n(8\" Qube Shape 11.1)",
     url: "https://quilt-notes.blogspot.com/p/55764.html",
     size: 4,
