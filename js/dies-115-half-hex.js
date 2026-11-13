@@ -1,0 +1,42 @@
+ACCUQUILT[115].push(
+  {
+    number: 55165,
+    name: "AccuQuilt Half Hexagon:  3/4\", 1-1/4\", 2-1/4\" Finished",
+    galleryName: "Half Hexagon 3/4\", 1-1/4\", 2-1/4\" Finished",
+    url: "https://quilt-notes.blogspot.com/p/55165.html",
+    size: 5.0,
+    widthGrain: 5.5,
+    lengthGrain: 5.5,
+    image: "55165-half-hexagon-Multi.jpg",
+    imageAlt: "Half Hexagon - AccuQuilt Die #55165",
+    affiliate: "https://shrsl.com/4kwvq",
+    patches: 2,
+    dieType: "Geometric",
+    qubeSize: null,
+    qubeShape: null,
+    boardSize: 612,
+    cutter: 123,
+    calc: 0,
+    video: 0
+  },
+  {
+    number: 55437,
+    name: "AccuQuilt Half Hexagon:  4-1/4\" Finished",
+    galleryName: "Half Hexagon 4-1/4\" Finished",
+    url: "https://quilt-notes.blogspot.com/p/55437.html",
+    size: 4.5,
+    widthGrain: 4.625,
+    lengthGrain: 9.5,
+    image: "55437-hexagon-4half-finished.jpg",
+    imageAlt: "Half Hexagon 4-1/4\" Finished - AccuQuilt Die #55437",
+    affiliate: "https://shrsl.com/4kwwt",
+    patches: 1,
+    dieType: "Geometric",
+    qubeSize: null,
+    qubeShape: null,
+    boardSize: 510,
+    cutter: 123,
+    calc: 0,
+    video: "https://youtu.be/eTlKuH4smUI?si=37xCSg0qP7XH1m7I"
+  }
+);
