@@ -1,4 +1,4 @@
-const RENDER_BLOCK_VERSION = "1.2";
+const RENDER_BLOCK_VERSION = "1.3";
 console.log(
     "QuiltNotes renderBlockInformation version:",
     RENDER_BLOCK_VERSION
@@ -176,17 +176,7 @@ console.log(
             return;
         }
 
-
-        let html = `
-            <h3 class="w3-center">
-                QuiltNotes&trade;.com Calculators
-                <br>
-                ${escapeText(
-                    getBlockName(block)
-                )}
-            </h3>
-        `;
-
+let html = "";
 
         /*
          * Main block image
@@ -691,50 +681,45 @@ function renderResultsHeader(
      * A complete URL is used unchanged.
      */
 
-    function buildImageUrl(
-        imageValue
+ function buildImageUrl(
+    imageValue
+) {
+
+    if (
+        !hasValue(
+            imageValue
+        )
     ) {
-
-        if (
-            !hasValue(
-                imageValue
-            )
-        ) {
-
-            return "";
-
-        }
-
-
-        const value =
-            String(
-                imageValue
-            ).trim();
-
-
-        if (
-            value.startsWith(
-                "https://"
-            ) ||
-            value.startsWith(
-                "http://"
-            )
-        ) {
-
-            return value;
-
-        }
-
-
-        return (
-            IMAGE_BASE +
-            value.replace(
-                /^\/+/,
-                ""
-            )
-        );
-
+        return "";
     }
+
+    const value =
+        String(
+            imageValue
+        ).trim();
+
+    /*
+     * Use a complete URL unchanged.
+     */
+
+    if (
+        value.startsWith("https://") ||
+        value.startsWith("http://")
+    ) {
+        return value;
+    }
+
+    /*
+     * Otherwise, treat the value as a
+     * filename in the GitHub images folder.
+     */
+
+    return (
+        IMAGE_BASE +
+        value.replace(/^\/+/, "")
+    );
+
+}
 
 
 
@@ -908,39 +893,23 @@ function renderResultsHeader(
      * ==========================================
      */
 
-    function escapeText(
-        value
-    ) {
+ function escapeText(
+    value
+) {
 
-        return String(
-            value === null ||
-            value === undefined
-                ? ""
-                : value
-        )
-            .replace(
-                /&/g,
-                "&amp;"
-            )
-            .replace(
-                /</g,
-                "&lt;"
-            )
-            .replace(
-                />/g,
-                "&gt;"
-            )
-            .replace(
-                /"/g,
-                "&quot;"
-            )
-            .replace(
-                /'/g,
-                "&#039;"
-            );
+    return String(
+        value === null ||
+        value === undefined
+            ? ""
+            : value
+    )
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 
-    }
-
+}
 
 
     /*
