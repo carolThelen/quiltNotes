@@ -1,3 +1,8 @@
+const RENDER_BLOCK_VERSION = "1.1";
+console.log(
+    "QuiltNotes renderBlockInformation version:",
+    RENDER_BLOCK_VERSION
+);
 (function (global) {
 
     "use strict";
