@@ -102,7 +102,7 @@ ACCUQUILT[112].push(
     size: 2.25,
     widthGrain: 3.25,
     lengthGrain: 5.5,
-    image: "",55656-image.jpg
+    image: "55656-image.jpg",
     imageAlt: "AccuQuilt Chisel:  2-1/4\" x 4-1/2\" Finished (9\" Qube Shape 9)",
     affiliate: "https://shrsl.com/4hdze",
     patches: 1,
