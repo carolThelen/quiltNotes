@@ -1,6 +1,6 @@
 // Generated from Blocks-101-Lookup.csv
 window.BLOCKS = window.BLOCKS || {};
-BLOCKS[101] = BLOCKS[101] || [];
+window.BLOCKS[101] = window.BLOCKS[101] || [];
 
 BLOCKS[101].push(
   {
