@@ -171,6 +171,18 @@
             return;
         }
 
+
+        let html = `
+            <h3 class="w3-center">
+                QuiltNotes&trade;.com Calculators
+                <br>
+                ${escapeText(
+                    getBlockName(block)
+                )}
+            </h3>
+        `;
+
+
         /*
          * Main block image
          */
@@ -421,47 +433,32 @@
      * ==========================================
      * RESULTS HEADER
      * ==========================================
-     *
-     * Displays at the top of the calculated
-     * results:
-     *
-     *     diagram
-     *     diagramAlt
-     *     calculator heading
-     *
-     * Use:
-     *
-     *     output +=
-     *         QuiltNotesBlocks.renderResultsHeader(
-     *             block
-     *         );
-     */
+   *
+ * Displays the diagram at the top of the
+ * calculated results, if one exists.
+ *
+ * Use:
+ *
+ *     output +=
+ *         QuiltNotesBlocks.renderResultsHeader(
+ *             block
+ *         );
+ */
 
-    function renderResultsHeader(
+function renderResultsHeader(
+    block,
+    options
+) {
+
+    const settings =
+        normalizeOptions(options);
+
+    return renderDiagram(
         block,
-        options
-    ) {
+        settings.diagramWidth
+    );
 
-        const settings =
-            normalizeOptions(options);
-
-
-        let html = `
-            <hr class="new1">
-        `;
-
-
-        /*
-         * Results diagram
-         */
-
-        html +=
-            renderDiagram(
-                block,
-                settings.diagramWidth
-            );
-    }
-
+}
 
 
     /*
@@ -475,83 +472,54 @@
      *     diagramAlt
      */
 
- function renderDiagram(
-    block,
-    width
-) {
-
-    if (
-        !block ||
-        !hasValue(block.diagram)
+    function renderDiagram(
+        block,
+        width
     ) {
-        return "";
+
+        if (
+            !block ||
+            !hasValue(
+                block.diagram
+            )
+        ) {
+
+            return "";
+
+        }
+
+
+        const diagramWidth =
+            normalizeWidth(
+                width,
+                "40%"
+            );
+
+
+        return `
+            <p class="w3-center">
+                <img
+                    src="${escapeAttribute(
+                        buildImageUrl(
+                            block.diagram
+                        )
+                    )}"
+                    style="
+                        width:${diagramWidth};
+                        max-width:100%;
+                        height:auto;
+                    "
+                    alt="${escapeAttribute(
+                        block.diagramAlt ||
+                        getBlockName(block) ||
+                        "Block diagram"
+                    )}"
+                >
+            </p>
+        `;
+
     }
 
-
-    const filename =
-        String(block.diagram)
-            .trim()
-            .replace(/^\/+/, "");
-
-
-    const jsDelivrUrl =
-        buildImageUrl(filename);
-
-
-    const githubRawUrl =
-        "https://raw.githubusercontent.com/" +
-        "CarolThelen/quiltNotes/main/images/" +
-        filename;
-
-
-    const diagramWidth =
-        normalizeWidth(
-            width,
-            "40%"
-        );
-
-
-    return `
-        <p class="w3-center">
-
-            <img
-                src="${escapeAttribute(
-                    jsDelivrUrl
-                )}"
-
-                data-fallback="${escapeAttribute(
-                    githubRawUrl
-                )}"
-
-                style="
-                    width:${diagramWidth};
-                    max-width:100%;
-                    height:auto;
-                "
-
-                alt="${escapeAttribute(
-                    block.diagramAlt ||
-                    getBlockName(block) ||
-                    "Block diagram"
-                )}"
-
-                onerror="
-                    if (
-                        this.dataset.fallback &&
-                        this.src !== this.dataset.fallback
-                    ) {
-                        this.src =
-                            this.dataset.fallback;
-                    } else {
-                        this.onerror = null;
-                    }
-                "
-            >
-
-        </p>
-    `;
-
-}
 
 
     /*
