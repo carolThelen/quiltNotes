@@ -472,25 +472,6 @@
                 block,
                 settings.diagramWidth
             );
-
-
-        /*
-         * Results heading
-         */
-
-        html += `
-            <h3 class="w3-center">
-                QuiltNotes&trade;.com Calculators
-                <br>
-                ${escapeText(
-                    getBlockName(block)
-                )}
-            </h3>
-        `;
-
-
-        return html;
-
     }
 
 
