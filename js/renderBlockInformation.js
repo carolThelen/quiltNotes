@@ -1,4 +1,4 @@
-const RENDER_BLOCK_VERSION = "1.1";
+const RENDER_BLOCK_VERSION = "1.2";
 console.log(
     "QuiltNotes renderBlockInformation version:",
     RENDER_BLOCK_VERSION
@@ -434,20 +434,13 @@ console.log(
 
 
 
-    /*
-     * ==========================================
-     * RESULTS HEADER
-     * ==========================================
-   *
+  /*
+ * ==========================================
+ * RESULTS HEADER
+ * ==========================================
+ *
  * Displays the diagram at the top of the
  * calculated results, if one exists.
- *
- * Use:
- *
- *     output +=
- *         QuiltNotesBlocks.renderResultsHeader(
- *             block
- *         );
  */
 
 function renderResultsHeader(
