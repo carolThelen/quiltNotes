@@ -506,54 +506,83 @@
      *     diagramAlt
      */
 
-    function renderDiagram(
-        block,
-        width
+ function renderDiagram(
+    block,
+    width
+) {
+
+    if (
+        !block ||
+        !hasValue(block.diagram)
     ) {
-
-        if (
-            !block ||
-            !hasValue(
-                block.diagram
-            )
-        ) {
-
-            return "";
-
-        }
-
-
-        const diagramWidth =
-            normalizeWidth(
-                width,
-                "40%"
-            );
-
-
-        return `
-            <p class="w3-center">
-                <img
-                    src="${escapeAttribute(
-                        buildImageUrl(
-                            block.diagram
-                        )
-                    )}"
-                    style="
-                        width:${diagramWidth};
-                        max-width:100%;
-                        height:auto;
-                    "
-                    alt="${escapeAttribute(
-                        block.diagramAlt ||
-                        getBlockName(block) ||
-                        "Block diagram"
-                    )}"
-                >
-            </p>
-        `;
-
+        return "";
     }
 
+
+    const filename =
+        String(block.diagram)
+            .trim()
+            .replace(/^\/+/, "");
+
+
+    const jsDelivrUrl =
+        buildImageUrl(filename);
+
+
+    const githubRawUrl =
+        "https://raw.githubusercontent.com/" +
+        "CarolThelen/quiltNotes/main/images/" +
+        filename;
+
+
+    const diagramWidth =
+        normalizeWidth(
+            width,
+            "40%"
+        );
+
+
+    return `
+        <p class="w3-center">
+
+            <img
+                src="${escapeAttribute(
+                    jsDelivrUrl
+                )}"
+
+                data-fallback="${escapeAttribute(
+                    githubRawUrl
+                )}"
+
+                style="
+                    width:${diagramWidth};
+                    max-width:100%;
+                    height:auto;
+                "
+
+                alt="${escapeAttribute(
+                    block.diagramAlt ||
+                    getBlockName(block) ||
+                    "Block diagram"
+                )}"
+
+                onerror="
+                    if (
+                        this.dataset.fallback &&
+                        this.src !== this.dataset.fallback
+                    ) {
+                        this.src =
+                            this.dataset.fallback;
+                    } else {
+                        this.onerror = null;
+                    }
+                "
+            >
+
+        </p>
+    `;
+
+}
 
 
     /*
