@@ -1,4 +1,4 @@
-const RENDER_BLOCK_VERSION = "1.4";
+const RENDER_BLOCK_VERSION = "1.5";
 console.log(
     "QuiltNotes renderBlockInformation version:",
     RENDER_BLOCK_VERSION
@@ -129,7 +129,7 @@ console.log(
      *     blkName
      *     image
      *     imageAlt
-     *     comments
+     *     description
      *     video
      *     videoAlt
      *     qImage
@@ -214,35 +214,26 @@ let html = "";
 
 
         /*
-         * Comments
-         *
-         * Intentionally rendered as HTML.
-         *
-         * The comments field may contain:
-         *
-         *     p
-         *     br
-         *     strong
-         *     ol
-         *     ul
-         *     li
-         *     img
-         *     a
-         */
+ * Description
+ *
+ * Intentionally rendered as HTML.
+ * The description field may contain
+ * p, ol, ul, li, img, a, etc.
+ */
 
-        if (
-            hasValue(
-                block.comments
-            )
-        ) {
+if (
+    hasValue(
+        block.description
+    )
+) {
 
-            html += `
-                <div class="block-comments">
-                    ${block.comments}
-                </div>
-            `;
+    html += `
+        <div class="block-description">
+            ${block.description}
+        </div>
+    `;
 
-        }
+}
 
 
         /*
