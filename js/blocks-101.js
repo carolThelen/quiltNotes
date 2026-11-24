@@ -255,7 +255,7 @@ BLOCKS[101].push(
     description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block.",
     diagram: "120-cats-cradle-piecing.jpg",
     diagramAlt: "Cat's Cradle Variation quilt block piecing diagram",
-    piecing: "<p class=\"w3-center\"><img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/120-cats-cradle-piecing.jpg\" style=\"width:20%\" alt=\"Cat's Cradle Piecing Diagram\"></p><ol>\n<li> Using one Accent and one Background Small HST patch, piece one HST unit. Press seam open.</li>\n<li>Sew Small HST Patches to adjacent sides of the Step 1 HST. Press seams open.</li>\n<li>Sew Large HST Patch to the Step 2 unit. Press seam open.</li>\n</ol>",
+    piecing: "<p class=\"w3-center\"><img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/120-cats-cradle-piecing.jpg\" style=\"width:40%\" alt=\"Cat's Cradle Piecing Diagram\"></p><ol>\n<li> Using one Accent and one Background Small HST patch, piece one HST unit. Press seam open.</li>\n<li>Sew Small HST Patches to adjacent sides of the Step 1 HST. Press seams open.</li>\n<li>Sew Large HST Patch to the Step 2 unit. Press seam open.</li>\n</ol>",
     instructions: null,
     eq8: null,
     video: null,
