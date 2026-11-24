@@ -1,4 +1,4 @@
-const RENDER_BLOCK_VERSION = "1.5";
+const RENDER_BLOCK_VERSION = "1.6";
 console.log(
     "QuiltNotes renderBlockInformation version:",
     RENDER_BLOCK_VERSION
@@ -197,7 +197,7 @@ let html = "";
                             )
                         )}"
                         style="
-                            width:20%;
+                            width:40%;
                             max-width:100%;
                             height:auto;
                         "
@@ -293,7 +293,7 @@ if (
                             )
                         )}"
                         style="
-                            width:20%;
+                            width:40%;
                             max-width:100%;
                             height:auto;
                         "
@@ -327,7 +327,7 @@ if (
                             )
                         )}"
                         style="
-                            width:20%;
+                            width:40%;
                             max-width:100%;
                             height:auto;
                         "
@@ -471,7 +471,7 @@ function renderResultsHeader(
         const diagramWidth =
             normalizeWidth(
                 width,
-                "20%"
+                "40%"
             );
 
 
