@@ -1,4 +1,4 @@
-const RENDER_BLOCK_VERSION = "1.3";
+const RENDER_BLOCK_VERSION = "1.4";
 console.log(
     "QuiltNotes renderBlockInformation version:",
     RENDER_BLOCK_VERSION
@@ -197,7 +197,7 @@ let html = "";
                             )
                         )}"
                         style="
-                            width:40%;
+                            width:20%;
                             max-width:100%;
                             height:auto;
                         "
@@ -267,7 +267,7 @@ let html = "";
                         <img
                             src="${IMAGE_BASE}Video-icon.png"
                             style="
-                                width:10%;
+                                width:15%;
                                 max-width:100%;
                                 height:auto;
                             "
@@ -302,7 +302,7 @@ let html = "";
                             )
                         )}"
                         style="
-                            width:40%;
+                            width:20%;
                             max-width:100%;
                             height:auto;
                         "
@@ -336,7 +336,7 @@ let html = "";
                             )
                         )}"
                         style="
-                            width:40%;
+                            width:20%;
                             max-width:100%;
                             height:auto;
                         "
@@ -480,7 +480,7 @@ function renderResultsHeader(
         const diagramWidth =
             normalizeWidth(
                 width,
-                "40%"
+                "20%"
             );
 
 
