@@ -1,6 +1,6 @@
-// Generated from Blocks-101-Lookup.csv v=2
+// Generated from Blocks-101-Lookup.csv v=3
 window.BLOCKS = window.BLOCKS || {};
-window.BLOCKS[101] = window.BLOCKS[101] || [];
+BLOCKS[101] = BLOCKS[101] || [];
 
 BLOCKS[101].push(
   {
@@ -120,7 +120,7 @@ BLOCKS[101].push(
     galleryName: "Half Rectangle Triangle",
     image: "115-HRT.JPG",
     imageAlt: "Half Rectangle Triangle Fabric Calculator",
-    description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block.",
+    description: "<div id=\"description\">\n<p>There are various methods to cut and piece HRT. Some methods call for cutting larger rectangles that are then pieced and trimmed to size. For this method use regular rulers, Bloc Loc Half Rectangle Rulers or Studio 180 Split Recs Ruler.</p>\n<p>Other methods use rulers such as Tri Recs or Creative Grids Perfect Rectangle to cut the exact size. Review your cutting tool instructions for specific cutting method.</p>\n<p><b>Fabric requirements include these methods:</b></p>\n<ol>\n<li><a href=\"https://tidd.ly/4AUc9eN\" target=\"_blank\">Bloc Loc Half Rectangle Ruler</a></li>\n<li><a href=\"https://tidd.ly/4fv5qQ5\" target=\"_blank\">Studio 180 Split Recs Ruler</a></li>\n<li><a href=\"https://tidd.ly/4tifRfw\" target=\"_blank\">Creative Grids Perfect Rectangle Ruler</a></li>\n</ol>\n</div>",
     diagram: "115-HRT-Cut.jpg",
     diagramAlt: "Half Rectangle Triangle quilt block piecing diagram",
     piecing: null,
@@ -277,7 +277,7 @@ BLOCKS[101].push(
     description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block.",
     diagram: "122-Chain.JPG",
     diagramAlt: "Chain Quilt Block piecing diagram",
-    piecing: "<div id=\"piecing\">\n<p class=\"w3-center\"><b>Piecing</b></p>\n<p><b>For each block:</b></p>\n<ol><li>Using one accent square and two background squares, make one center unit shown. Press toward dark fabric.</li>\n<p class=\"w3-center\"> <img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/122-Chain1.jpg\" style=\"width:40%\" alt=\"Chain Quilt Block piecing step 1\"></p>\n<li>Sew one accent square to one rectangle.</li>\n<p class=\"w3-center\"> <img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/122-Chain2.jpg\" style=\"width:40%\" alt=\"Chain Quilt Block piecing step 2\"><br>Make two.</p>\n<li>Piece the two units together to form the final block.</li>\n</ol>",
+    piecing: "<div id=\"piecing\">\n<p><b>For each block:</b></p>\n<ol><li>Using one accent square and two background squares, make one center unit shown. Press toward dark fabric.</li>\n<p class=\"w3-center\"> <img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/122-Chain1.jpg\" style=\"width:40%\" alt=\"Chain Quilt Block piecing step 1\"></p>\n<li>Sew one accent square to one rectangle.</li>\n<p class=\"w3-center\"> <img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/122-Chain2.jpg\" style=\"width:40%\" alt=\"Chain Quilt Block piecing step 2\"><br>Make two.</p>\n<li>Piece the two units together to form the final block.</li>\n</ol>",
     instructions: null,
     eq8: null,
     video: null,
@@ -360,7 +360,7 @@ BLOCKS[101].push(
     url: "https://quilt-notes.blogspot.com/p/126-corner-points.html",
     blkName: "Corner Points Quilt block or Piecing Unit Fabric Calculator",
     galleryName: "Corner Points",
-    image: "123-corner-points-image.png",
+    image: "126-corner-points-image.png",
     imageAlt: "Corner Points Quilt Block Fabric Calculator",
     description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block.",
     diagram: "126-Corner-Points.JPG",
@@ -384,7 +384,7 @@ BLOCKS[101].push(
     galleryName: "Jo's Unit",
     image: "127-Jos-Unit.JPG",
     imageAlt: "Jo's Unit Quilt Block Fabric Calculator",
-    description: "The Stitch & Flip Method is used to make this unit. After piecing the half square triangle, the square is placed in one corner and stitched.\\nfor AccuQuilt users, you hae th option to use the Trapezoid and half square triangle shape instead of the Stitch & Flip Method.",
+    description: "The Stitch & Flip Method is used to make this unit. After piecing the half square triangle, the square is placed in one corner and stitched.\nfor AccuQuilt users, you have the option to use the Trapezoid and half square triangle shape instead of the Stitch & Flip Method.",
     diagram: "127-Jos-Unit-diagram.jpg",
     diagramAlt: "Jo's Unit quilt block piecing diagram",
     piecing: "<div id=\"video\" class=\"w3-center\">\n<p>Watch the video below for a demonstration of the Stitch & Flip Method.</p>\n<p><a href=\"https://youtu.be/6Y3gj6Zu0Wo\" target=\"_blank\"><img src=\"https://cdn.jsdelivr.net/gh/CarolThelen/quiltNotes@main/images/Video-icon.png\" style=\"width:10%\" alt=\"Video showing the Stitch & Flip Method\"></a></p>\n</div>",
@@ -428,8 +428,8 @@ BLOCKS[101].push(
     galleryName: "Chisel",
     image: "Chisel-pair.png",
     imageAlt: "Chisel Unit Quilt Block Fabric Calculator",
-    description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block.",
-    diagram: "Chisel-pair.png",
+    description: "<p></p>These calculations are based on using the Stitch and Flip method of piecing which uses a rectangle and a square, and works for Rotary Cutting and AccuQuilt Cutting.</p>\n<p><b>Additionally, AccuQuilt Users have several other choices:</b></p>\n<ul>\n<li>From the Mix & Match QUBE, use Modified Stitch and Flip with Shape #5, Half Square Triangle and the Shape #8, Rectangle</li>\n<li>From the Mix & Match and Companion Angles QUBES, use Shape #9, Chisel and Shape #5, Half Square Triangle.</li>\n</ul>\n<p>\n<a href=\"https://quilt-notes.blogspot.com/2026/11/3-ways-to-piece-chisel-unit.html\" target=\"_blank\">Three Ways to Piece the Chisel Unit Tutorial</a></p>",
+    diagram: "Chisel-pair-diagram.png",
     diagramAlt: "Chisel Unit Free Quilt Block Pattern Cutting and Piecing Diagram",
     piecing: "",
     instructions: null,
@@ -468,7 +468,7 @@ BLOCKS[101].push(
   {
     number: 134,
     url: "https://quilt-notes.blogspot.com/p/134-nine-patch-exploded.html",
-    blkName: "Exploded Nine Patch Quilt Block or Pecing Unit Faric Calculator",
+    blkName: "Exploded Nine Patch Quilt Block or Piecing Unit Fabric Calculator",
     galleryName: "Exploded Nine Patch",
     image: "134-block.JPG",
     imageAlt: "Exploded Nine Patch Quilt Block Fabric Calculator",
@@ -490,19 +490,19 @@ BLOCKS[101].push(
   {
     number: 30003,
     url: "https://quilt-notes.blogspot.com/p/30003-economy.html",
-    blkName: "Economy Quilt Block or Pecing Unit Faric Calculator",
+    blkName: "Economy Quilt Block or Piecing Unit Fabric Calculator",
     galleryName: "Economy",
     image: "30003-Economy-Quilt-Block.jpg",
     imageAlt: "Economy Quilt Block Fabric Calculator",
     description: "Use this as a stand alone quilt block or as a piecing unit inside a quilt block. Watch the video to see three ways to piece this block.",
-    diagram: "30003-Diagram.png",
+    diagram: "30003-Diagram.jpg",
     diagramAlt: "Economy Free Quilt Block Pattern Cutting and Piecing Diagramuilt Block Piecing Diagram",
     piecing: null,
     instructions: null,
     eq8: null,
     video: "https://youtu.be/6W2S1AevqmY",
     videoAlt: "Video showing three ways to piece the Economy Quilt Block",
-    qImage: "30003-Economy-quilt.jpg",
+    qImage: "30003-Economy-quilt.JPG",
     qImageAlt: "Economy Block Quilt Sample",
     qImage2: null,
     qImage2Alt: null,
@@ -512,7 +512,7 @@ BLOCKS[101].push(
   {
     number: 30016,
     url: "https://quilt-notes.blogspot.com/p/30016-pinwheel.html",
-    blkName: "Pinwheel Quilt Block or Pecing Unit Faric Calculator",
+    blkName: "Pinwheel Quilt Block or Piecing Unit Fabric Calculator",
     galleryName: "Pinwheel",
     image: "30016-Block.jpg",
     imageAlt: "Pinwheel Free Quilt Block and Fabric Calculator",
@@ -534,7 +534,7 @@ BLOCKS[101].push(
   {
     number: 30060,
     url: "https://quilt-notes.blogspot.com/p/30060-four-patch.html",
-    blkName: "Four Patch Quilt Block or Pecing Unit Faric Calculator",
+    blkName: "Four Patch Quilt Block or Piecing Unit Fabric Calculator",
     galleryName: "Four Patch",
     image: "30060-Block.JPG",
     imageAlt: "Four Patch Free Quilt Block Fabric Calculator",
@@ -554,3 +554,4 @@ BLOCKS[101].push(
     quarter: null,
   },
 );
+
